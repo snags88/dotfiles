@@ -30,7 +30,7 @@ function git_color {
 function prompt {
   local CHAR="●﹏●"
 
-   export PS1="\[\e]2;\u-\d\s\a"
+  export PS1="\[\e]2;\u-\d\s\a"
   PS1+="[\[\e[0;1m\]\t\[\e[0m\]]"
   PS1+="\[\$(git_color)\]\$(parse_git_branch)"
   PS1+="\[$COLOR_GREEN\]\h:\[\e[0m\]\W\n"
@@ -40,4 +40,3 @@ function prompt {
 }
 
 prompt
-
