@@ -1,13 +1,9 @@
 #!/bin/sh
 
-if test ! $(which rbenv)
+if test ! $(which rvm)
 then
-  echo "  Installing rbenv for you."
-  brew install rbenv > /tmp/rbenv-install.log
+  echo "  Installing rvm for you."
+  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+  \curl -sSL https://get.rvm.io | bash -s stable --ruby
 fi
 
-if test ! $(which ruby-build)
-then
-  echo "  Installing ruby-build for you."
-  brew install ruby-build > /tmp/ruby-build-install.log
-fi

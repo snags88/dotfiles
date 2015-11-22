@@ -1,15 +1,7 @@
 #!/usr/bin/ruby
 class Object
   require "awesome_print"
-  AwesomePrint.irb!
-
-  def lm
-    (self.methods - Object.methods).sort
-  end
-
-  def lim
-    (self.instance_methods - Object.instance_methods).sort
-  end
+  AwesomePrint.pry!
 
   # Return a list of methods defined locally for a particular object.  Useful
   # for seeing what it does whilst losing all the guff that's implemented
