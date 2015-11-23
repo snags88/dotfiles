@@ -1,6 +1,8 @@
 [user]
   name = Seiji Naganuma
 	email = snaganumas@gmail.com
+[alias]
+        co = checkout
 [push]
 	default = simple
 [mergetool]
