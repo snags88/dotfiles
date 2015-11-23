@@ -2,13 +2,13 @@
   name = Seiji Naganuma
 	email = snaganumas@gmail.com
 [alias]
-        co = checkout
+  co = checkout
 [push]
 	default = simple
 [mergetool]
-        keepBackup = false
+  keepBackup = false
 [difftool]
-        prompt = false
+  prompt = false
 [core]
-        excludesfile = ~/.gitignore
-        editor = vim
+  excludesfile = ~/.gitignore
+  editor = vim
