@@ -1,0 +1,12 @@
+[user]
+  name = Seiji Naganuma
+	email = snaganumas@gmail.com
+[push]
+	default = simple
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[core]
+        excludesfile = ~/.gitignore
+        editor = vim
