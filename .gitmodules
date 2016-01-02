@@ -1,3 +1,6 @@
 [submodule "vim/janus.symlink/vim-jade"]
 	path = vim/janus.symlink/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "vim/janus.symlink/vim-slim"]
+	path = vim/janus.symlink/vim-slim
+	url = git://github.com/slim-template/vim-slim.git
