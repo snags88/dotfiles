@@ -1,0 +1,3 @@
+[submodule "vim/janus.symlink/vim-jade"]
+	path = vim/janus.symlink/vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
