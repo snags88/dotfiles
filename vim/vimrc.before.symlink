@@ -40,3 +40,6 @@ set colorcolumn=+1
 
 " Clear highlights
 nnoremap <SPACE>c <SPACE>:noh<CR>
+
+" Use silver searcher instead of ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
