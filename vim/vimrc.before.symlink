@@ -43,3 +43,10 @@ nnoremap <SPACE>c <SPACE>:noh<CR>
 
 " Use silver searcher instead of ack
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" increase ctrl p depth and file count
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
+
+" use git to list files in ctrl p
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
