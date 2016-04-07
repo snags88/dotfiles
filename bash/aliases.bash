@@ -8,15 +8,15 @@
   # Standard Rails
   alias rc='rails c'
   alias rs='rails s'
-  alias migrate="rake db:migrate && rake db:migrate RAILS_ENV=test"
+  alias migrate='rake db:migrate && rake db:migrate RAILS_ENV=test'
 
   # Zeus Rails
   alias zstart='zeus start'
   alias zs='zeus server'
   alias zc='zeus console'
-  alias zmigrate="zeus rake db:migrate && zeus rake db:migrate RAILS_ENV=test"
-  alias zr = 'zeus rake'
-  alias zg = 'zeus generate'
+  alias zmigrate='zeus rake db:migrate && zeus rake db:migrate RAILS_ENV=test'
+  alias zr= 'zeus rake'
+  alias zg= 'zeus generate'
 
   # SSH shortcuts
   alias ssh-production="ssh seiji@$PRODUCTION"
