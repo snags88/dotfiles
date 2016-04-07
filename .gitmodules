@@ -4,9 +4,6 @@
 [submodule "vim/janus.symlink/vim-slim"]
 	path = vim/janus.symlink/vim-slim
 	url = git://github.com/slim-template/vim-slim.git
-[submodule "vim/janus.symlink/ack.vim"]
-	path = vim/janus.symlink/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/janus.symlink/vim-wakatime"]
 	path = vim/janus.symlink/vim-wakatime
 	url = git://github.com/wakatime/vim-wakatime.git
