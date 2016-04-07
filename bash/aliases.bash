@@ -14,8 +14,8 @@
   alias zstart='zeus start'
   alias zs='zeus s'
   alias zc='zeus c'
+  alias zg='zeus g'
   alias zmigrate='zeus rake db:migrate && zeus rake db:migrate RAILS_ENV=test'
-  alias zg= 'zeus g'
 
   # SSH shortcuts
   alias ssh-production="ssh seiji@$PRODUCTION"
