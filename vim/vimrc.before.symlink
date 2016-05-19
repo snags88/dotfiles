@@ -17,6 +17,10 @@ nnoremap <silent> ¬ <C-w>5>
 " Set scrollable mouse
 set mouse=a
 
+" Set relative line numbers
+set number
+set relativenumber
+
 " Set Ruler
 set ruler
 
