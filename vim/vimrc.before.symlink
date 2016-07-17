@@ -57,7 +57,3 @@ let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -
 
 " set 256 color scheme
 set t_Co=256
-
-" set colorscheme
-set background=dark
-colorscheme deep-space
