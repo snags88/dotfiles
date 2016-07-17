@@ -10,3 +10,9 @@
 [submodule "vim/janus.symlink/vim-jsx"]
 	path = vim/janus.symlink/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
+[submodule "vim/janus.symlink/moriarty.vim"]
+	path = vim/janus.symlink/moriarty.vim
+	url = git@github.com:aliou/moriarty.vim.git
+[submodule "vim/janus.symlink/vim-deep-space"]
+	path = vim/janus.symlink/deep-space
+	url = git@github.com:tyrannicaltoucan/vim-deep-space.git

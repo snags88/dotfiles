@@ -54,3 +54,10 @@ let g:ctrlp_max_depth=40
 
 " use git to list files in ctrl p
 let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
+
+" set 256 color scheme
+set t_Co=256
+
+" set colorscheme
+set background=dark
+colorscheme deep-space
