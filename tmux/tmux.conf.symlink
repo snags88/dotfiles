@@ -1,3 +1,14 @@
+# set prefix
 unbind C-b
 set -g prefix C-a
 bind C-a send-prefix
+
+# set mouse on copy mode
+set-option -g mouse on
+
+# set use vim keybindings in copy mode
+setw -g mode-keys vi
+
+
+# set color mode
+set -g default-terminal "screen-256color"
