@@ -16,3 +16,6 @@
 [submodule "vim/janus.symlink/vim-test"]
 	path = vim/janus.symlink/vim-test
 	url = git@github.com:janko-m/vim-test.git
+[submodule "vim/janus.symlink/vimux"]
+	path = vim/janus.symlink/vimux
+	url = git@github.com:benmills/vimux.git

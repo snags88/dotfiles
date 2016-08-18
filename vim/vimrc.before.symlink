@@ -60,3 +60,10 @@ set wildignore+=app/assets/javascripts/bin/**
 
 " set 256 color scheme
 set t_Co=256
+
+"vim-test configurations
+let test#strategy = "vimux"
+
+nmap <silent> <leader>tt :TestNearest <CR>
+nmap <silent> <leader>tT :TestFile <CR>
+nmap <silent> <leader>tl :TestLast <CR>
