@@ -17,8 +17,9 @@ export PATH="$MYSQL_PATH:$PG_PATH:$USR_PATHS:$PATH"
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
-# pyenv
-eval "$(pyenv init -)"
+# pyenv & virtualenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # RVM
   # Mandatory loading of RVM into the shell
