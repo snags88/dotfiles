@@ -21,6 +21,9 @@ export PATH="$MYSQL_PATH:$PG_PATH:$USR_PATHS:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+# phpbrew
+if which phpbrew > /dev/null; then [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc; fi
+
 # RVM
   # Mandatory loading of RVM into the shell
   # This must be the last line of your bash_profile always

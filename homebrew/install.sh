@@ -25,6 +25,6 @@ fi
 brew install ack opensslredis git	libyaml sqlite\
              graphviz postgresql	the_silver_searcher\
              cmatrix heroku-toolbelt	vim node rabbitmq\
-             bash-completion hub pyenv
+             bash-completion hub
 
 exit 0
