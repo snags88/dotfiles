@@ -24,6 +24,9 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 # phpbrew
 if which phpbrew > /dev/null; then [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc; fi
 
+# openssl - Use brew installed openssl instead of system
+if which openssl > /dev/null; then export PATH="/usr/local/opt/openssl/bin:$PATH"; fi
+
 # RVM
   # Mandatory loading of RVM into the shell
   # This must be the last line of your bash_profile always
