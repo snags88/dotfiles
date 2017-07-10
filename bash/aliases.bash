@@ -24,3 +24,8 @@
   alias ssh-qa="ssh seiji@$QA"
   alias ssh-nitrous="ssh seiji@$NITROUS"
 
+  # Curology test alias
+  alias unit="./tests/scripts/run_tests.sh local testing --unit"
+  alias units="./tests/scripts/run_tests.sh local testing --stop"
+  alias unitf="./tests/scripts/run_tests.sh local testing --filter"
+  alias unitp="vendor/bin/paratest -p20 tests/unit"
