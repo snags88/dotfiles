@@ -31,4 +31,4 @@
   alias unitp="vendor/bin/paratest -p20 tests/unit"
 
   # Curology Ember app
-  alias appstart="cd ~/repos/PocketDerm/resources/assets/patient-frontend && ./serve.sh localhost curology"
+  alias appstart="cd /Users/$USER/Development/code/PocketDerm/resources/assets/patient-frontend && ./serve.sh localhost curology"
