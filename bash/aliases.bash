@@ -2,6 +2,7 @@
 # =====================
   alias l='ls -lah'
   alias flatiron="cd /Users/$USER/Development/flatiron/code/$@"
+  alias curology="cd /Users/$USER/Development/curology/code/$@"
   alias desktop="cd /Users/$USER/Desktop/$@"
   alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 

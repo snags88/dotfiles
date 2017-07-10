@@ -22,7 +22,7 @@ then
 fi
 
 # Install homebrew packages
-brew install ack opensslredis git	libyaml sqlite\
+brew install ack openssl redis git	libyaml sqlite\
              graphviz postgresql	the_silver_searcher\
              cmatrix heroku-toolbelt	vim node rabbitmq\
              bash-completion hub mcrypt
