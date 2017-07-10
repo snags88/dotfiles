@@ -29,3 +29,6 @@
   alias units="./tests/scripts/run_tests.sh local testing --stop"
   alias unitf="./tests/scripts/run_tests.sh local testing --filter"
   alias unitp="vendor/bin/paratest -p20 tests/unit"
+
+  # Curology Ember app
+  alias appstart="cd ~/repos/PocketDerm/resources/assets/patient-frontend && ./serve.sh localhost curology"
