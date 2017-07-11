@@ -5,3 +5,8 @@ atom.symlink/compile-cache/
 atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

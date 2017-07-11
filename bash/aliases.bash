@@ -19,10 +19,8 @@
   alias zmigrate='zeus rake db:migrate && zeus rake db:migrate RAILS_ENV=test'
 
   # SSH shortcuts
-  alias ssh-production="ssh seiji@$PRODUCTION"
-  alias ssh-staging="ssh seiji@$STAGING"
-  alias ssh-qa="ssh seiji@$QA"
-  alias ssh-nitrous="ssh seiji@$NITROUS"
+  alias ssh-production="eb ssh production --force -e 'ssh -i \"$SSH_KEYFILE\"'"
+  alias ssh-staging="eb ssh staging --force -e 'ssh -i \"$SSH_KEYFILE\"'"
 
   # Curology test alias
   alias unit="./tests/scripts/run_tests.sh local testing --unit"
