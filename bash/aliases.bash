@@ -21,6 +21,7 @@
   # SSH shortcuts
   alias ssh-production="eb ssh production --force -e 'ssh -i \"$SSH_KEYFILE\"'"
   alias ssh-staging="eb ssh staging --force -e 'ssh -i \"$SSH_KEYFILE\"'"
+  alias ssh-jenkins="ssh -i '$SSH_JENKINS' $JENKINS_SERVER"
 
   # Curology test alias
   alias unit="./tests/scripts/run_tests.sh local testing --unit"
