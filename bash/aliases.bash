@@ -9,7 +9,7 @@
   # Standard Rails
   alias rc='rails c'
   alias rs='rails s'
-  alias migrate='rake db:migrate && rake db:migrate RAILS_ENV=test'
+  alias rmigrate='rake db:migrate && rake db:migrate RAILS_ENV=test'
 
   # Zeus Rails
   alias zstart='zeus start'
@@ -17,6 +17,10 @@
   alias zc='zeus c'
   alias zg='zeus g'
   alias zmigrate='zeus rake db:migrate && zeus rake db:migrate RAILS_ENV=test'
+
+  # Artisan
+  alias tinker='php artisan tinker'
+  alias pmigrate='php artisan migrate'
 
   # SSH shortcuts
   alias ssh-production="eb ssh production --force -e 'ssh -i \"$SSH_KEYFILE\"'"
