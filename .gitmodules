@@ -19,3 +19,6 @@
 [submodule "vim/janus.symlink/vimux"]
 	path = vim/janus.symlink/vimux
 	url = git@github.com:benmills/vimux.git
+[submodule "vim/janus.symlink/vim-phpqa"]
+	path = vim/janus.symlink/vim-phpqa
+	url = git@github.com:joonty/vim-phpqa.git
