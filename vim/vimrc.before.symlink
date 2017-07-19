@@ -66,7 +66,7 @@ let test#strategy = "basic"
 let test#javascript#jasmine#executable = 'npm test'
 let test#php#phpunit#executable = './tests/scripts/run_tests.sh local testing'
 let test#php#phpunit#options= {
-      \'file': '--filter',
+      \'file': '--debug',
       \'suite': '--unit'
 \}
 
