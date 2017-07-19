@@ -64,6 +64,11 @@ set t_Co=256
 "vim-test configurations
 let test#strategy = "basic"
 let test#javascript#jasmine#executable = 'npm test'
+let test#php#phpunit#executable = './tests/scripts/run_tests.sh local testing'
+let test#php#phpunit#options= {
+      \'file': '--filter',
+      \'suite': '--unit'
+\}
 
 nmap <silent> <leader>tt :TestNearest <CR>
 nmap <silent> <leader>tT :TestFile <CR>
