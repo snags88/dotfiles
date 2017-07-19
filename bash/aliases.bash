@@ -31,6 +31,7 @@
   alias unit="./tests/scripts/run_tests.sh local testing --unit"
   alias units="./tests/scripts/run_tests.sh local testing --stop"
   alias unitf="./tests/scripts/run_tests.sh local testing --filter"
+  alias unitd="./tests/scripts/run_tests.sh local testing --debug"
   alias unitp="vendor/bin/paratest -p20 tests/unit"
 
   # Curology Ember app
