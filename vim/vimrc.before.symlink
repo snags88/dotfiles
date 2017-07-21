@@ -85,7 +85,3 @@ cnoreabbrev Artisan !php artisan
 
 " Indentation for php files
 autocmd FileType php setlocal shiftwidth=4 tabstop=4
-
-" phpqa: only autorun the syntax linter
-let g:phpqa_messdetector_autorun = 0
-let g:phpqa_codesniffer_autorun = 0
