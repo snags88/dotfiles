@@ -85,3 +85,7 @@ cnoreabbrev Artisan !php artisan
 
 " Indentation for php files
 autocmd FileType php setlocal shiftwidth=4 tabstop=4
+
+" php cs fixer
+let g:php_cs_fixer_level = "psr2"
+autocmd BufWritePre *.php :call PhpCsFixerFixFile()

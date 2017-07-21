@@ -25,6 +25,6 @@ fi
 brew install ack openssl redis git	libyaml sqlite\
              graphviz postgresql	the_silver_searcher\
              cmatrix heroku-toolbelt	vim node rabbitmq\
-             bash-completion hub mcrypt
+             bash-completion hub mcrypt php-cs-fixer
 
 exit 0
