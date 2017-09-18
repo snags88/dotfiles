@@ -24,10 +24,20 @@
 
   # SSH shortcuts
   alias ssh-production="eb ssh production --force -e 'ssh -i \"$SSH_KEYFILE\"'"
+  alias ssh-production-workers="eb ssh production-workers --force -e 'ssh -i \"$SSH_KEYFILE\"'"
   alias ssh-staging="eb ssh staging --force -e 'ssh -i \"$SSH_KEYFILE\"'"
+  alias ssh-dev="eb ssh dev-eb-test --force -e 'ssh -i \"$SSH_KEYFILE\"'"
+  alias ssh-faux="eb ssh faux-prod --force -e 'ssh -i \"$SSH_KEYFILE\"'"
   alias ssh-jenkins="ssh -i '$SSH_JENKINS' $JENKINS_SERVER"
 
   # Curology test alias
+  alias testsetup="./tests/scripts/phpunit_setup.sh root testing"
+  alias testall="./tests/scripts/phpunit.sh --unit"
+  alias tests="./tests/scripts/phpunit.sh --stop"
+  alias testf="./tests/scripts/phpunit.sh --filter"
+  alias testp="vendor/bin/paratest -p14 tests/Unit"
+  alias testw="phpunit-watcher watch --filter="
+
   alias unit="./tests/scripts/run_tests.sh local testing --unit"
   alias units="./tests/scripts/run_tests.sh local testing --stop"
   alias unitf="./tests/scripts/run_tests.sh local testing --filter"
