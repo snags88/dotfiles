@@ -22,3 +22,6 @@
 [submodule "vim/janus.symlink/vim-php-cs-fixer"]
 	path = vim/janus.symlink/vim-php-cs-fixer
 	url = git@github.com:stephpy/vim-php-cs-fixer.git
+[submodule "vim/janus.symlink/vdebug"]
+	path = vim/janus.symlink/vdebug
+	url = git@github.com:joonty/vdebug.git
