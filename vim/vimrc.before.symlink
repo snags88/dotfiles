@@ -1,4 +1,13 @@
 let mapleader = ","                         " Remap leader key
+call janus#disable_plugin('gundo')
+
+" VDebug settings
+let g:vdebug_options = {
+    \    "port" : 9001,
+    \    "timeout" : 30,
+    \    "on_close" : 'detach',
+    \    "break_on_open" : 0
+\}
 
 " Move lines up/down with Ctrl+k/Ctrl+j
 nnoremap <C-j> :m .+1<CR>==
