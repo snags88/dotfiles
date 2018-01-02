@@ -23,12 +23,8 @@
   alias pmigrate='php artisan migrate'
 
   # SSH shortcuts
-  alias ssh-production="eb ssh production --force -e 'ssh -i \"$SSH_KEYFILE\"'"
-  alias ssh-production-workers="eb ssh production-workers --force -e 'ssh -i \"$SSH_KEYFILE\"'"
-  alias ssh-staging="eb ssh staging --force -e 'ssh -i \"$SSH_KEYFILE\"'"
-  alias ssh-dev="eb ssh dev-eb-test --force -e 'ssh -i \"$SSH_KEYFILE\"'"
-  alias ssh-faux="eb ssh faux-prod --force -e 'ssh -i \"$SSH_KEYFILE\"'"
-  alias ssh-jenkins="ssh -i '$SSH_JENKINS' $JENKINS_SERVER"
+  alias ssh-production="heroku run bash --app=$PRODUCTION_NAME"
+  alias ssh-staging="heroku run bash --app=$STAGING_NAME"
 
   # Curology test alias
   alias testsetup="./tests/scripts/phpunit_setup.sh root testing"

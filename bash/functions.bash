@@ -7,3 +7,7 @@ xon () { #enable xdebug
 xoff () { #disable xdebug
     sed -i -e "s/.*zend_extension.*/\;zend_extension=\"\/usr\/local\/opt\/php71-xdebug\/xdebug.so\"/" /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini
 }
+
+ssh-review () { #ssh into review app
+    heroku run bash --app="$REVIEW_APP_BASE""$1"
+}
