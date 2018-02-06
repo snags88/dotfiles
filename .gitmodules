@@ -25,3 +25,6 @@
 [submodule "vim/janus.symlink/vdebug"]
 	path = vim/janus.symlink/vdebug
 	url = git@github.com:joonty/vdebug.git
+[submodule "vim/janus.symlink/vim-airline"]
+	path = vim/janus.symlink/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
