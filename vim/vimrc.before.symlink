@@ -87,9 +87,6 @@ nmap <silent> <leader>tl :TestLast <CR>
 "vim-jsx syntax highlighter options
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
-" Alias Artisan
-cnoreabbrev Artisan !php artisan
-
 " Indentation for php files
 autocmd FileType php setlocal shiftwidth=4 tabstop=4
 

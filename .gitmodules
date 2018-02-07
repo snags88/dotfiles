@@ -28,3 +28,15 @@
 [submodule "vim/janus.symlink/vim-airline"]
 	path = vim/janus.symlink/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
+[submodule "vim/janus.symlink/vim-laravel"]
+	path = vim/janus.symlink/vim-laravel
+	url = git@github.com:noahfrederick/vim-laravel.git
+[submodule "vim/janus.symlink/vim-projectionist"]
+	path = vim/janus.symlink/vim-projectionist
+	url = git@github.com:tpope/vim-projectionist.git
+[submodule "vim/janus.symlink/vim-dispatch"]
+	path = vim/janus.symlink/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule "vim/janus.symlink/vim-composer"]
+	path = vim/janus.symlink/vim-composer
+	url = git@github.com:noahfrederick/vim-composer.git

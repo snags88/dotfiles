@@ -13,5 +13,5 @@ ssh-review () { #ssh into review app
 }
 
 agc () { # silver searcher with curology ignore files
-    ag "$1" --ignore-dir resources/assets/patient-frontend/dist --ignore-dir resources/assets/patient-frontend/tmp --ignore-dir public/
+    ag "$1" --ignore-dir resources/assets/patient-frontend --ignore-dir public/
 }
