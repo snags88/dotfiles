@@ -33,12 +33,3 @@
   alias testf="./tests/scripts/phpunit.sh --filter"
   alias testp="vendor/bin/paratest -p14 tests/Unit"
   alias testw="phpunit-watcher watch --filter="
-
-  alias unit="./tests/scripts/run_tests.sh local testing --unit"
-  alias units="./tests/scripts/run_tests.sh local testing --stop"
-  alias unitf="./tests/scripts/run_tests.sh local testing --filter"
-  alias unitd="./tests/scripts/run_tests.sh local testing --debug"
-  alias unitp="vendor/bin/paratest -p20 tests/unit"
-
-  # Curology Ember app
-  alias appstart="cd /Users/$USER/Development/curology/code/PocketDerm/resources/assets/patient-frontend && ./serve.sh curology.localhost curology"
