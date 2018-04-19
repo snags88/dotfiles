@@ -24,7 +24,8 @@ fi
 # Install homebrew packages
 brew install ack openssl redis git	libyaml sqlite\
              graphviz postgresql	the_silver_searcher\
-             cmatrix heroku-toolbelt	vim node rabbitmq\
-             bash-completion hub mcrypt php-cs-fixer
+             cmatrix heroku-toolbelt	vim node\
+             bash-completion hub mcrypt php-cs-fixer\
+             php72 composer yarn
 
 exit 0

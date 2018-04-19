@@ -28,14 +28,13 @@ function git_color {
 
 # This function builds your prompt. It is called below
 function prompt {
-  #local CHAR="●﹏●"
-  local CHAR=" 🏃 💨 💩 "
+  local CHAR="T^T >>"
 
   export PS1="\[\e]2;\u-\d\s\a"
   PS1+="[\[\e[0;1m\]\t\[\e[0m\]]"
   PS1+="\[\$(git_color)\]\$(parse_git_branch)"
   PS1+="\[$COLOR_GREEN\]\h:\[\e[0m\]\W\n"
-  PS1+="\[\e[0;31m\]$CHAR \[\e[0m\]"
+  PS1+="\[$COLOR_WHITE\]$CHAR \[\e[0m\]"
   PS2='> '
   PS4='+ '
 }
