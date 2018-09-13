@@ -24,6 +24,10 @@ nnoremap <silent> ∆ <C-W>5-
 nnoremap <silent> ˚ <C-W>5+
 nnoremap <silent> ¬ <C-w>5>
 
+" Set large redrawtime for large file syntax
+" highlighting
+set redrawtime=10000
+
 " Set scrollable mouse
 set mouse=a
 

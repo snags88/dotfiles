@@ -3,6 +3,8 @@
   # GIT_MERGE_AUTO_EDIT
   # This variable configures git to not require a message when you merge.
   export GIT_MERGE_AUTOEDIT='no'
+  export VISUAL=sublime
+  export EDITOR="$VISUAL"
 
   # Editors
   # Tells your shell that when a program requires various editors, use sublime.
