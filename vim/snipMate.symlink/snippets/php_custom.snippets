@@ -1,2 +1,7 @@
 snippet tinker
 	eval(\Psy\sh());
+
+snippet schema
+	Schema::table('${1:table_name}', function (Blueprint $table) {
+		$table->${2:columnType}('${3:column_name}');
+	});
