@@ -1,5 +1,5 @@
 [user]
-  name = Seiji Naganuma
+	name = Seiji Naganuma
 	email = snaganumas@gmail.com
 [alias]
   co = checkout
@@ -12,3 +12,8 @@
 [core]
   excludesfile = ~/.gitignore
 	editor = vim
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
