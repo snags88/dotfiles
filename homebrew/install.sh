@@ -21,10 +21,12 @@ then
 
 fi
 
+brew tap heroku/brew
+
 # Install homebrew packages
 brew install ack openssl redis git	libyaml sqlite\
              graphviz postgresql	the_silver_searcher\
-             cmatrix heroku-toolbelt	vim node\
+             cmatrix heroku	vim node\
              bash-completion hub mcrypt php-cs-fixer\
              php72 composer yarn
 
