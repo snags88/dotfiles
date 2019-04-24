@@ -28,6 +28,6 @@ brew install ack openssl redis git	libyaml\
              graphviz postgresql	the_silver_searcher\
              cmatrix heroku	vim node\
              bash-completion hub mcrypt php-cs-fixer\
-             php72 composer yarn
+             php72 composer yarn mariadb
 
 exit 0
