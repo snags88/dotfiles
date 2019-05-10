@@ -40,6 +40,3 @@
 [submodule "vim/janus.symlink/vim-composer"]
 	path = vim/janus.symlink/vim-composer
 	url = git@github.com:noahfrederick/vim-composer.git
-[submodule "vim/janus.symlink/vim-phpqa"]
-	path = vim/janus.symlink/vim-phpqa
-	url = git@github.com:joonty/vim-phpqa.git

@@ -26,8 +26,8 @@ brew tap heroku/brew
 # Install homebrew packages
 brew install ack openssl redis git	libyaml\
              graphviz postgresql	the_silver_searcher\
-             cmatrix heroku	vim node\
+             heroku	neovim node\
              bash-completion hub mcrypt php-cs-fixer\
-             php72 composer yarn mariadb
+             php composer yarn mariadb
 
 exit 0
