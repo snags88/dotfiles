@@ -30,4 +30,6 @@ brew install ack openssl redis git	libyaml\
              bash-completion hub mcrypt php-cs-fixer\
              php composer yarn mariadb
 
+brew cask install vimr
+
 exit 0
