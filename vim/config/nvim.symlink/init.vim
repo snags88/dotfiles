@@ -173,7 +173,9 @@ nmap <silent> <leader>tl :TestLast <CR>
 """""""""""Vim-php-cs-fixer""""""""
 " Autofix on save
 autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
-let g:php_cs_fixer_level = "psr2"
+let g:php_cs_fixer_config_file = '~/.php_cs'
+" Path to PHP
+let g:php_cs_fixer_php_path = "/usr/local/bin/php"
 " change default mapping
 nnoremap <silent><leader>pf :call PhpCsFixerFixFile()<CR>
 nnoremap <silent><leader>pd :call PhpCsFixerFixDirectory()<CR>

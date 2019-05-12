@@ -1,0 +1,30 @@
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+require __DIR__.'/bootstrap/app.php';
+
+return (new MattAllan\LaravelCodeStyle\Config())
+    ->setFinder(
+        PhpCsFixer\Finder::create()
+            ->in(app_path())
+            ->in(config_path())
+            ->in(database_path())
+            ->notPath(database_path('migrations'))
+            ->in(resource_path('lang'))
+            ->in(base_path('routes'))
+            ->in(base_path('tests'))
+    )
+    ->setRules([
+	'@Laravel' => true,
+	'single_blank_line_before_namespace' => false,
+	'no_blank_lines_before_namespace' => true,
+	'ordered_imports' => ['sort_algorithm' => 'alpha'],
+	'not_operator_with_successor_space' => false,
+	'trailing_comma_in_multiline_array' => false,
+	'blank_line_after_opening_tag' => false,
+	'single_blank_line_before_namespace' => false,
+	'not_operator_with_successor_space' => false,
+	'no_leading_import_slash' => false,
+	'no_useless_return' => false,
+	'simplified_null_return' => false,
+    ]);
