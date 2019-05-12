@@ -27,7 +27,7 @@ brew tap heroku/brew
 brew install ack openssl redis git	libyaml\
              graphviz postgresql	the_silver_searcher\
              heroku	neovim node\
-             bash-completion hub mcrypt php-cs-fixer\
+             bash-completion hub mcrypt\
              php composer yarn mariadb
 
 brew cask install vimr
