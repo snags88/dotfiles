@@ -31,7 +31,7 @@ Plug 'noahfrederick/vim-laravel'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'vim-syntastic/syntastic'
 Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'maxmellon/vim-jsx-pretty'
 Plug 'elzr/vim-json'
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'aliou/moriarty.vim'
@@ -260,5 +260,12 @@ nnoremap <SPACE>c <SPACE>:noh<CR>
 " set 256 color scheme
 set t_Co=256
 
-" Indentation for php files
+syntax enable
+
+" Indentation
+filetype plugin indent on
+set tabstop=2                     " a tab is two spaces
+set shiftwidth=2                  " an autoindent (with <<) is two spaces
+set expandtab                     " use spaces, not tabs
+" php files have special setting
 autocmd FileType php setlocal shiftwidth=4 tabstop=4
