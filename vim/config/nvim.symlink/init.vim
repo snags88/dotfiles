@@ -43,6 +43,7 @@ Plug 'janko/vim-test'
 Plug 'wakatime/vim-wakatime'
 Plug 'tpope/vim-surround'
 Plug 'valloric/youcompleteme'
+Plug 'shawncplus/phpcomplete.vim'
 
 call plug#end()
 
