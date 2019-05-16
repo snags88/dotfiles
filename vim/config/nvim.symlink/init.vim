@@ -1,3 +1,4 @@
+"
 " Use vim-plug to install plugins
 call plug#begin('~/.local/share/nvim/plugged')
 " dipslay related
@@ -160,6 +161,15 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+""""""""Snipmate""""""
+" Make it compatible with YCM
+" imap <expr> <m-h> pumvisible() ? '<esc>a<Plug>snipMateTrigger' : '<Plug>snipMateTrigger'
+imap <expr> <Tab> pumvisible() ? '<esc>a<Plug>snipMateNextOrTrigger' : '<Plug>snipMateNextOrTrigger'
+smap <m-j> <Plug>snipMateNextOrTrigger
+imap <expr> <S-Tab> pumvisible() ? '<esc>a<Plug>snipMateBack' : '<Plug>snipMateBack'
+smap <S-Tab> <Plug>snipMateBack
+imap <expr> <C-R><Tab> pumvisible() ? '<esc>a<Plug>snipMateShow' : '<Plug>snipMateShow'
 
 """"""""Airline"""""""
 let g:airline_theme='cobalt2'
