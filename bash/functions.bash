@@ -8,7 +8,7 @@ xoff () { #disable xdebug
 }
 
 ssh-review () { #ssh into review app
-    heroku run bash --app="$REVIEW_APP_BASE""$1"
+    heroku run bash --app="$1"
 }
 
 agc () { # silver searcher with curology ignore files

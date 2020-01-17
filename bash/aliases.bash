@@ -31,5 +31,5 @@
   alias testall="./tests/scripts/phpunit.sh --unit"
   alias tests="./tests/scripts/phpunit.sh --stop"
   alias testf="./tests/scripts/phpunit.sh --filter"
-  alias testp="vendor/bin/paratest -p8"
+  alias testp="vendor/bin/paratest -p12"
   alias testw="phpunit-watcher watch --filter="

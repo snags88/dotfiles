@@ -36,6 +36,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'elzr/vim-json'
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'aliou/moriarty.vim'
+Plug 'leafgarland/typescript-vim'
 
 " testing
 Plug 'janko/vim-test'
