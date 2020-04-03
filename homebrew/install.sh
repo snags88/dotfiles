@@ -29,6 +29,8 @@ brew install ack openssl redis git	libyaml\
              heroku	neovim node\
              bash-completion hub mcrypt\
              composer yarn
+             # For PHPBrew
+             zlib bzip2 libiconv curl
 
 brew cask install vimr
 
